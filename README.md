@@ -23,14 +23,33 @@ Gemini in Lookerが有効になっている場合に利用できます。
 - Automatic Slide Generation - スライド自動生成
 - Formula Assistant - 計算アシスト
 
-##  Lookerを取り巻くOSS
+## Lookerを取り巻くOSS
 
 Google Cloudでは提供されていない機能はOSSのextensionを使うことによって導入することができます。
+具体的には以下のとおりです。
 
--  Explore Assistant (Looker Extension)
+- Explore Assistant (Looker Extension)
 - Dashboard Summary (Looker Extension as Dashboard Tile)
+- Query Insights (Looker Extension as Custom Viz)
 - Vertex AI Data Action (Custom Action)
 - Semantic Search Block (Looker Blocks)
-- Query Insights (Looker Extension as Custom Viz)
 
+## Explore Assistant
 
+Explore AssistantはLookerのExploreという機能を自然言語によって操作するためのOSSです。
+https://github.com/looker-open-source/looker-explore-assistant
+
+何ができるか：
+Exploreによるグラフの作成を自然言語で行うことができるため、Lookerの操作に慣れていないユーザでも簡単にグラフを作成できます。
+
+## Dashboard Summary
+
+Dashboard SummaryはLookerのダッシュボードに要約情報を表示するためのOSSです。
+https://github.com/looker-open-source/dashboard-summarization
+
+何ができるか：
+ダッシュボードの内容を要約して表示することができるため、ダッシュボードの内容をより簡単に把握できます。
+
+## Query Insights
+
+Query InsightsはLookerのクエリの実行状況を可視化するためのOSSです。

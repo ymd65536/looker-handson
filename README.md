@@ -23,7 +23,9 @@ Gemini in Lookerが有効になっている場合に利用できます。
 - Automatic Slide Generation - スライド自動生成
 - Formula Assistant - 計算アシスト
 
-## OSS
+##  Lookerを取り巻くOSS
+
+Google Cloudでは提供されていない機能はOSSのextensionを使うことによって導入することができます。
 
 -  Explore Assistant (Looker Extension)
 - Dashboard Summary (Looker Extension as Dashboard Tile)
